@@ -1,0 +1,21 @@
+Design Visual e Paleta de Cores: Aplicação de uma paleta de cores que torne a página atraente e com boa legibilidade.
+
+Tipografia: Escolha e aplicação de fontes adequadas para títulos e parágrafos. 
+
+Estilização de Imagens de Palestrantes: Bordas arredondadas, sombras ou molduras nas imagens. 
+
+Estilização do Formulário: Estilo para o formulário, incluindo botões e campos de entrada. 
+
+Efeitos Interativos (Hover e Transições): Inclusão de efeitos hover e transition em links, botões ou imagens.
+
+Uso de Sombras e Bordas: Adição de sombras para profundidade e estilo. 
+
+Uniformidade e Consistência: Manutenção de estilo uniforme e consistente na página. 
+
+Organização e Comentários no CSS: O código CSS deve ser organizado, com comentários explicativos. 
+
+Estrutura HTML Completa: Uso correto das tags HTML para estruturar o conteúdo. (ex.: <header>, <section>, <footer>, etc.)
+
+Uso de Tags Semânticas: Inclusão de tags semânticas adequadas, como <main>, <article>, <nav>,
+para melhorar a acessibilidade e SEO. 
+ 

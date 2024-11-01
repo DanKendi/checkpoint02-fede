@@ -4,12 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkpoint 02</title>
+    <title>Seminário CSS</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Seminário de HTML & CSS</h1>
+        <nav class="menu">
+            <a href="#Sobre">Sobre</a>
+            <a href="Palestrantes">Palestrantes</a>
+            <a href="#">Agenda</a>
+            <a href="#">Inscreva-se</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="sobre">
+            <h2>Sobre o Evento</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quis quae quasi distinctio vel,
+                perferendis officiis cumque. Voluptatibus perferendis totam maiores cupiditate. Accusantium, id sequi
+                enim
+                officiis magnam doloribus recusandae illum animi, ipsa fuga sint obcaecati. Perferendis quae neque.
+            </p>
+        </section>
+
+        <section class="palestrantes">
+            <div class="container">
+                <h2>Nossos Palestrantes</h2>
+                <div class="card-grid">
+                    <div id="card-01" class="card">
+                        <div class="card-content">
+                            <img src="img/Joao.jpg" alt="Imagem do João">
+                            <h3>João da Silva</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias, hic
+                                quibusdam odit ab quis.</p>
+                        </div>
+                    </div>
+
+                    <div id="card-02" class="card">
+                        <div class="card-content">
+                            <img src="img/Rafael.jpg" alt="Imagem do Rafael">
+                            <h3>Rafael Brito</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias, hic
+                                quibusdam odit ab quis.</p>
+                        </div>
+                    </div>
+
+                    <div id="card-03" class="card">
+                        <div class="card-content">
+                            <img src="img/Larissa.jpg" alt="Imagem da Larissa">
+                            <h3>Larissa Souza</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias, hic
+                                quibusdam odit ab quis.</p>
+                        </div>
+                    </div>
+
+                </div> <!-- div card-grid -->
+            </div> <!-- div container -->
+        </section>
+
+        <section class="agenda">
+            <p></p>
+        </section>
+
+        <hr>
+
+        <div class="formulario">
+            <div class="form-content">
+                <h2>Inscreva-se</h2>
+                <form>
+                    <label for="inputName">Nome:</label>
+                    <input type="text" id="inputName" name="name" required>
+                    <label for="inputEmail">Email:</label>
+                    <input type="email" id="inputEmail" name="email" required>
+                    <label for="inputTel">Telefone:</label>
+                    <input type="tel" id="inputTel" name="tel" required>
+                    <button type="submit" class="btn">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>2024 - Daniel Kendi &copy; Todos os direitos reservados</p>
+    </footer>
 </body>
 
 </html>

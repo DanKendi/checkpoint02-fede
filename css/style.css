@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #daffef;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+header{
+    background-color: #fcfffd;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 2px solid #333; /* Borda inferior */
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 5px;
+    transition: color 0.3s;
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+.sobre{
+    background-color: #c0fbfd;
+    padding: 15px;
+    margin: 50px;
+    border: 5px dotted #64b6ac;
+}
+.sobre h2{
+    font-size: 35px;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre p{
+    text-align: justify;
+    font-size: 20px;
+    color: #222;
+}
+
+.palestrantes{
+    background-color: #64B6AC;
+
+}
+
+.palestrantes h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card-grid{
+    display: flex; /* Usa flexbox para alinhar os cartões */
+    justify-content: center; /* Centraliza os cartões */
+}
+
+/* Estilo para os cartões de experiência */
+.card{
+    background-color: #5D737E; /* Cor de fundo do cartão */
+    border: 1px solid #ddd; /* Adiciona uma borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 300px; /* Define a largura do cartão */
+    box-shadow: #333; /* Adiciona uma sombra */
+}
+
+/* Efeito de hover nos cartões */
+.card:hover{
+    transform: scale(1.10); /* Aumenta o tamanho do cartão em 10% quando o mouse passa por cima */
+}
+
+/* Estilo para as imagens dentro dos cartões */
+.card img{
+    width: 100%; /* Faz a imagem ocupar toda a largura do cartão */
+    height: 200px; /* Define a altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorções */
+}
+
+/* Estilo para o conteúdo dentro dos cartões */
+.card-content{
+    padding: 20px; /* Adiciona espaçamento interno no conteúdo */
+}
+
+/* Estilo para os títulos dentro dos cartões */
+.card h3{
+    font-size: 24px; /* Define o tamanho da fonte do título */
+    margin: 10px; /* Adiciona margem ao redor do título */
+    color: #FCFFFD; /* Cor do título */
+}
+
+/* Estilo para os parágrafos dentro dos cartões */
+.card p{
+    font-size: 16px; /* Define o tamanho da fonte do parágrafo */
+    color: #FCFFFD; /* Define a cor do texto como cinza claro */
+}
+
+.formulario{
+    margin: 20px auto;
+    text-align: center;
+    background-color: #C0FDFB;
+}
+
+.formulario h2{
+    font-size: 30px;
+}
+
+.modal form{
+    display: flex; /* Usa flexbox para organizar o formulário */
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+/* Estilo para o conteúdo do modal */
+.modal-content{
+    background-color: bisque; /* Cor de fundo do modal */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 400px; /* Largura máxima de 400px */
+    position: relative; /* Permite o uso de posicionamento absoluto dentro do modal */
+}
+
+/* Estilo para os rótulos dos inputs no formulário */
+.modal form label{
+    margin: 10px; /* Adiciona margem ao redor dos rótulos */
+    font-size: 16px; /* Define o tamanho da fonte dos rótulos */
+}
+
+/* Estilo para os campos de entrada do formulário */
+.modal form input{
+    padding: 10px; /* Adiciona preenchimento dentro dos campos */
+    margin: 5px; /* Adiciona margem ao redor dos campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+footer p{
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
