@@ -118,23 +118,19 @@ header ul{
     color: #FCFFFD; /* Define a cor do texto como cinza claro */
 }
 
-.formulario{
-    margin: 20px auto;
-    text-align: center;
-    background-color: #C0FDFB;
-}
 
 .formulario h2{
     font-size: 30px;
 }
 
-.modal form{
+.formulario{
     display: flex; /* Usa flexbox para organizar o formulário */
     flex-direction: column; /* Organiza os elementos em coluna */
+
 }
 /* Estilo para o conteúdo do modal */
-.modal-content{
-    background-color: bisque; /* Cor de fundo do modal */
+.form-content{
+    background-color: #C0FDFB;; /* Cor de fundo do formulario */
     margin: 0 auto; /* Centraliza o conteúdo */
     padding: 20px; /* Espaçamento interno */
     border-radius: 10px; /* Bordas arredondadas */
@@ -143,17 +139,22 @@ header ul{
 }
 
 /* Estilo para os rótulos dos inputs no formulário */
-.modal form label{
+.formulario form label{
     margin: 10px; /* Adiciona margem ao redor dos rótulos */
     font-size: 16px; /* Define o tamanho da fonte dos rótulos */
 }
 
 /* Estilo para os campos de entrada do formulário */
-.modal form input{
+.formulario form input{
     padding: 10px; /* Adiciona preenchimento dentro dos campos */
     margin: 5px; /* Adiciona margem ao redor dos campos */
     border: 1px solid #ccc; /* Borda cinza clara */
     border-radius: 5px; /* Bordas arredondadas */
+}
+
+.formulario btn{
+    justify-content: center;
+    text-align: center;
 }
 
 footer p{
