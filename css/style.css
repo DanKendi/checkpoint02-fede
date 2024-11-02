@@ -1,81 +1,76 @@
+/* Redefine o espaçamento e preenchimento padrão */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Garante que o box-sizing seja border-box para incluir bordas e padding no cálculo do tamanho */
 }
 
 body{
-    background-color: #daffef;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
+    background-color: #daffef; /* Cor de fundo */
+    font-family: Arial, Helvetica, sans-serif; /* Configura o tipo de fonte */
+    color: #333; /* Cor das letras */
 }
 
 header{
-    background-color: #fcfffd;
-    padding: 20px;
+    background-color: #fcfffd; /* Cor de fundo */
+    padding: 20px; /* Adiciona preenchimento de 20px para todos os lados */
 }
 
 header h1{
-    margin: 0 auto;
-    text-align: center;
-    font-size: 45px;
-}
-
-header ul{
-    list-style-type: none;
+    text-align: center; /* Alinha o texto para o meio */
+    font-size: 45px; /* Configura o tamanho da fonte */
 }
 
 .menu{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    border-bottom: 2px solid #333; /* Borda inferior */
+    display: flex; /* Mantem o menu centralizado */
+    justify-content: center; /* Mantem o menu centralizado */
+    padding: 15px; /* Adiciona preenchimento de 15px para todos os lados */
+    border-bottom: 2px solid #333; /* Borda inferior de 2px solida da cor #333 */
 }
 
 .menu a{
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-    margin: 5px;
-    transition: color 0.3s;
+    text-decoration: none; /* Tira o sublinhado */
+    color: #333; /* Cor das letras */
+    font-size: 20px; /* Configura o tamanho da fonte */
+    margin: 5px; /* Adiciona margem de 5px */
+    transition: color 0.3s; /* Adiciona transição de cores */
 }
 
 .menu a:hover{
-    color: blue;
+    color: blue; /* Configura a cor das letras quando o cursor está sobre as âncoras */
 }
 
 .sobre{
-    background-color: #c0fbfd;
-    padding: 15px;
-    margin: 50px;
-    border: 5px dotted #64b6ac;
+    background-color: #c0fbfd; /* Cor de fundo */
+    padding: 15px; /* Adiciona preenchimento de 15px para todos os lados */
+    margin: 50px; /* Adiciona margem de 50px */
+    border: 5px dotted #64b6ac; /* Adiciona borda de 5px pontilhado */
 }
 .sobre h2{
-    font-size: 35px;
-    color: #000;
-    justify-content: center;
-    text-align: center;
+    font-size: 35px; /* Configura o tamanho da fonte */
+    color: #000; /* Cor das letras */
+    text-align: center; /* Alinha o texto para o meio */
 }
 
 .sobre p{
-    text-align: justify;
-    font-size: 20px;
-    color: #222;
+    text-align: justify; /* Cor das letras */
+    font-size: 20px; /* Configura o tamanho da fonte */
+    color: #222; /* Cor das letras */
 }
 
 .palestrantes{
-    background-color: #64B6AC;
-    margin: 30px auto;
-    padding: 20px;
-    padding-bottom: 40px;
-    border-radius: 10px;
-    max-width: 1000px;
+    background-color: #64B6AC; /* Cor de fundo */
+    margin: 30px auto; /* Adiciona margem de 30px e mantem o conteúdo centralizado em relação a página */
+    padding: 20px; /* Adiciona preenchimento de 20px para todos os lados */
+    padding-bottom: 40px; /* Adiciona preenchimento inferior de 40px */
+    border-radius: 10px; /* Arredonda as bordas em 10px */
+    max-width: 1000px; /* Configura a largura máxima para 1000px */
 }
 
 .palestrantes h2{
-    font-size: 35px;
-    text-align: center;
-    margin: 20px;
+    font-size: 35px; /* Configura o tamanho da fonte */
+    text-align: center; /* Alinha o texto para o meio */
+    margin: 20px; /* Adiciona margem de 20px */
 }
 
 .card-grid{
@@ -124,37 +119,36 @@ header ul{
 }
 
 .agenda{
-    background-color: #5D737E;
-    margin: 30px auto;
-    margin-top: 0px;
-    padding: auto;
-    border: 2px solid #000;
-    border-radius: 20px;
-    max-width: 350px;
-    justify-content: center;
-    text-align: center;
+    background-color: #5D737E; /* Cor de fundo */
+    margin: 30px auto; /* Adiciona margem de 30px e mantem o conteúdo centralizado em relação a página */
+    margin-top: 0px; /* Tira a margem superior */
+    padding: auto; /* Adiciona preenchimento automático*/
+    border: 2px solid #000; /* Adiciona uma borda preta */
+    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 350px; /* Configura a largura máxima para 1000px */
+    text-align: center; /* Alinha o texto para o meio */
 }
 
 .agenda h2{
-    padding: 15px;
-    color: #FCFFFD;
-    font-size: 30px;
+    padding: 15px; /* Adiciona preenchimento de 15px para todos os lados*/
+    color: #FCFFFD; /* Cor das letras */
+    font-size: 30px; /* Define o tamanho da fonte */
 }
 
 .agenda p{
-    padding: 10px;
-    color: #FCFFFD;
+    padding: 10px; /* Adiciona preenchimento de 10px para todos os lados*/
+    color: #FCFFFD; /* Cor das letras */
 }
 
 .formulario h2{
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px; /* Define o tamanho da fonte */
+    text-align: center; /* Alinha o texto para o meio */
 }
 
 .formulario{
     display: flex; /* Usa flexbox para organizar o formulário */
     flex-direction: column; /* Organiza os elementos em coluna */
-    margin: 20px;
+    margin: 20px; /* Adiciona margem */
 }
 /* Estilo para o conteúdo do modal */
 .f-content{
@@ -166,15 +160,15 @@ header ul{
 }
 
 .f-content .botao{
-    text-align: center;
+    text-align: center; /* Alinha o texto para o meio */
 }
 
 /* Estilo para os rótulos dos inputs no formulário */
 .formulario form label{
     margin: 10px; /* Adiciona margem ao redor dos rótulos */
     font-size: 20px; /* Define o tamanho da fonte dos rótulos */
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Usa flexbox para organizar o formulário */
+    flex-direction: column; /* Organiza os elementos em coluna */
 }
 
 /* Estilo para os campos de entrada do formulário */
@@ -183,31 +177,31 @@ header ul{
     margin: 5px; /* Adiciona margem ao redor dos campos */
     border: 1px solid #ccc; /* Borda cinza clara */
     border-radius: 5px; /* Bordas arredondadas */
-    width: 100%;
+    width: 100%; /* Configura a a largura para preencher 100% */
 }
 
 .formulario form .btn{
-    text-align: center;
-    background-color: #64b6ac;
-    border: none;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: center; /* Alinha o texto para o meio */
+    background-color: #64b6ac; /* Cor de fundo */
+    border: none; /* Remove as bordas */
+    margin: 10px; /* Adiciona margem de 10px para todos os lados*/
+    padding: 10px; /* Adiciona preenchimento de 10px para todos os lados*/
+    border-radius: 5px; /* Arredonda as bordas */
+    cursor: pointer; /* Configura o cursor para pointer */
 }
 
 .formulario form .btn:hover{
-    background-color: #5D737E;
+    background-color: #5D737E; /* Cor de fundo */
 }
 
 footer{
-    background-color: #5D737E;
+    background-color: #5D737E; /* Cor de fundo */
 }
 
 footer p{
-    margin: 0 auto;
-    padding: 30px;
-    text-align: center;
-    font-size: 20px;
-    color: #FCFFFD;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 30px; /* Adiciona preenchimento de 30px para todos os lados*/
+    text-align: center; /* Alinha o texto para o meio */
+    font-size: 20px; /* Define o tamanho da fonte do parágrafo */
+    color: #FCFFFD; /* Cor das letras */
 }
