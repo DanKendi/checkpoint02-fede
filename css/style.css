@@ -6,7 +6,7 @@
 
 body{
     background-color: #daffef;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -65,7 +65,11 @@ header ul{
 
 .palestrantes{
     background-color: #64B6AC;
-
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    max-width: 1000px;
 }
 
 .palestrantes h2{
@@ -77,6 +81,7 @@ header ul{
 .card-grid{
     display: flex; /* Usa flexbox para alinhar os cartões */
     justify-content: center; /* Centraliza os cartões */
+    box-shadow: #333; /* Adiciona uma sombra */
 }
 
 /* Estilo para os cartões de experiência */
@@ -118,30 +123,58 @@ header ul{
     color: #FCFFFD; /* Define a cor do texto como cinza claro */
 }
 
+.agenda{
+    background-color: #5D737E;
+    margin: 30px auto;
+    margin-top: 0px;
+    padding: auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+}
+
+.agenda h2{
+    padding: 15px;
+    color: #FCFFFD;
+    font-size: 30px;
+}
+
+.agenda p{
+    padding: 10px;
+    color: #FCFFFD;
+}
 
 .formulario h2{
     font-size: 30px;
+    text-align: center;
 }
 
 .formulario{
     display: flex; /* Usa flexbox para organizar o formulário */
     flex-direction: column; /* Organiza os elementos em coluna */
-
+    margin: 20px;
 }
 /* Estilo para o conteúdo do modal */
-.form-content{
+.f-content{
     background-color: #C0FDFB;; /* Cor de fundo do formulario */
     margin: 0 auto; /* Centraliza o conteúdo */
     padding: 20px; /* Espaçamento interno */
     border-radius: 10px; /* Bordas arredondadas */
-    max-width: 400px; /* Largura máxima de 400px */
-    position: relative; /* Permite o uso de posicionamento absoluto dentro do modal */
+    width: 400px; /* Largura máxima de 400px */
+}
+
+.f-content .botao{
+    text-align: center;
 }
 
 /* Estilo para os rótulos dos inputs no formulário */
 .formulario form label{
     margin: 10px; /* Adiciona margem ao redor dos rótulos */
-    font-size: 16px; /* Define o tamanho da fonte dos rótulos */
+    font-size: 20px; /* Define o tamanho da fonte dos rótulos */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Estilo para os campos de entrada do formulário */
@@ -150,16 +183,31 @@ header ul{
     margin: 5px; /* Adiciona margem ao redor dos campos */
     border: 1px solid #ccc; /* Borda cinza clara */
     border-radius: 5px; /* Bordas arredondadas */
+    width: 100%;
 }
 
-.formulario btn{
-    justify-content: center;
+.formulario form .btn{
     text-align: center;
+    background-color: #64b6ac;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario form .btn:hover{
+    background-color: #5D737E;
+}
+
+footer{
+    background-color: #5D737E;
 }
 
 footer p{
-    margin: 30px;
+    margin: 0 auto;
+    padding: 30px;
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: #FCFFFD;
 }

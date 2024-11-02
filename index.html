@@ -9,18 +9,20 @@
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
         <h1>Seminário de HTML & CSS</h1>
         <nav class="menu">
-            <a href="#Sobre">Sobre</a>
-            <a href="Palestrantes">Palestrantes</a>
-            <a href="#">Agenda</a>
-            <a href="#">Inscreva-se</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#palestrantes">Palestrantes</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#formulario">Inscreva-se</a>
         </nav>
     </header>
 
+    <!-- Principal -->
     <main>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <h2>Sobre o Evento</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quis quae quasi distinctio vel,
                 perferendis officiis cumque. Voluptatibus perferendis totam maiores cupiditate. Accusantium, id sequi
@@ -29,7 +31,7 @@
             </p>
         </section>
 
-        <section class="palestrantes">
+        <section class="palestrantes" id="palestrantes">
             <div class="container">
                 <h2>Nossos Palestrantes</h2>
                 <div class="card-grid">
@@ -64,31 +66,36 @@
             </div> <!-- div container -->
         </section>
 
-        <section class="agenda">
-            <p></p>
+        <section class="agenda" id="agenda">
+            <h2>Agenda</h2>
+            <div class="horarios">
+                <hr>
+                <p class="horarios">Explicando o HTML das 10:00 às 11:30</p>
+                <hr>
+                <p class="horarios">Explicando o CSS das 13:00 às 14:00</p>
+                <hr>
+                <p class="horarios">Estruturando a página das 10:00 às 11:30</p>
+            </div> 
         </section>
 
-        <hr>
-
-        <div class="formulario">
-            <div class="form-content">
+        <div class="formulario" id="formulario">
+            <div class="f-content">
                 <h2>Inscreva-se</h2>
                 <form>
                     <label for="inputName">Nome:</label>
                     <input type="text" id="inputName" name="name" required>
-                    <br>
                     <label for="inputEmail">Email:</label>
                     <input type="email" id="inputEmail" name="email" required>
-                    <br>
                     <label for="inputTel">Telefone:</label>
                     <input type="tel" id="inputTel" name="tel" required>
-                    <br>
-                    <button type="submit" class="btn">ENVIAR</button>
+                    <div class="botao">
+                        <button type="submit" class="btn">ENVIAR</button>
+                    </div>
                 </form>
             </div>
         </div>
-    </main>
 
+    </main>
     <hr>
 
     <footer>
